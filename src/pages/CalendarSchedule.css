@@ -1,0 +1,62 @@
+/* Soft pastel pink for appointments */
+.rbc-event {
+  background-color: #fde0e0 !important; /* Pastel pink for events */
+  color: #000 !important; /* Black text color for better readability */
+}
+ 
+/* Soft pastel pink for today’s highlight */
+.rbc-today {
+  background-color: #fde0e0 !important; /* Pastel pink for today’s highlight */
+}
+ 
+/* Custom style for the selected slot (if needed) */
+.rbc-selected-slot {
+  background-color: #fde0e0 !important; /* Pastel pink for selected slots */
+}
+ 
+.custom-toolbar {
+  display: flex;
+  justify-content: center; /* Center the label and arrows */
+  align-items: center;
+}
+ 
+.toolbar-left {
+  display: flex;
+  align-items: center;
+}
+ 
+.toolbar-left button {
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+  margin: 0 10px;
+}
+ 
+.toolbar-left span {
+  font-size: 16px;
+}
+
+/* Change calendar background to white */
+.calendar-container .rbc-calendar {
+  background-color: white;
+}
+
+/* Optional: Adjust the color of the event titles */
+.calendar-container .rbc-event {
+  color: black;
+}
+
+/* Optional: Customize the date and time slot appearance */
+.calendar-container .rbc-time-view, 
+.calendar-container .rbc-month-view {
+  background-color: white;
+  color: black;
+}
+
+/* Adjust the border and color of time slots for better visibility */
+.calendar-container .rbc-timeslot-group, 
+.calendar-container .rbc-day-slot, 
+.calendar-container .rbc-date-cell {
+  border: 1px solid #e0e0e0;
+}
